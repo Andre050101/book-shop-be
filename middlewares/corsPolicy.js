@@ -22,4 +22,4 @@ function corsPolicy(req, res, next) {
   next();
 }
 
-module.exports = corsPolicy;
+export default corsPolicy;

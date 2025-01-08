@@ -1,13 +1,7 @@
-const express = require("express");
+import express from "express";
 const router = express.Router();
 
-const {
-  index,
-  show,
-  store,
-  update,
-  destroy,
-} = require("../controllers/exampleController");
+import { index, show, store, update, destroy } from "../controllers/bookController.js";
 //Rotte
 
 // Index - Read all
@@ -31,4 +25,4 @@ router.put("/:id", update);
 router.delete("/:id", destroy);
 
 //export router
-module.exports = router;
+export default router;

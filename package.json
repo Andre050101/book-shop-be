@@ -1,6 +1,7 @@
 {
   "name": "template-express",
   "version": "1.0.0",
+  "type": "module",
   "description": "```bash\r # clone repository\r # add package-lock.json to .gitignore\r # edit README.md",
   "main": "server.js",
   "scripts": {
